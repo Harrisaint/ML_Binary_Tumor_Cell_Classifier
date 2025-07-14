@@ -1,0 +1,35 @@
+# Python
+backend/venv/
+backend/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Model files
+*.h5
+*.keras
+*.ckpt
+*.pb
+
+# Data
+*.csv
+*.tsv
+*.npz
+*.npy
+*.zip
+*.tar.gz
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# System
+.DS_Store
+Thumbs.db
+
+# VSCode
+.vscode/
+
+# Ignore environment files
+.env
+.env.* 
