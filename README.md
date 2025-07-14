@@ -46,13 +46,17 @@ This project is a machine learning application designed to classify breast tumor
 ### 📦 Backend Setup
 
 ```bash
-cd breast-tumor-frontend
-# (Optional) Create and activate a virtual environment
-# python -m venv venv
-# source venv/bin/activate (Linux/Mac) or venv\Scripts\activate (Windows)
-pip install -r requirements.txt  # If requirements.txt exists
-# Or install dependencies manually (e.g., tensorflow, flask, etc.)
-# python serve_model.py
+cd backend
+# Create and activate a virtual environment (recommended)
+python -m venv venv
+# On Windows:
+venv\Scripts\activate
+# On macOS/Linux:
+source venv/bin/activate
+
+pip install -r requirements.txt
+# Run the FastAPI server
+python serve_model.py
 ```
 
 ### 💻 Frontend Setup
